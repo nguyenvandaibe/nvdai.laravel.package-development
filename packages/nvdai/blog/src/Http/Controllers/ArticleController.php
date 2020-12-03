@@ -21,8 +21,8 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        $articles = $this->article->paginate(10)->get();
-        // dd($this->article);
+        $articles = $this->article->paginate(10);
+
         return view('blog::articles.index', ['articles' => $articles]);
     }
 
