@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Nvdai\Blog\Providers\BlogServiceProvider::class,
 
         /*
          * Application Service Providers...

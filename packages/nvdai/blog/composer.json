@@ -1,0 +1,17 @@
+{
+    "name": "nvdai/blog",
+    "description": "Đăng và quản lý bài viết",
+    "authors": [
+        {
+            "name": "Nguyen Van Dai",
+            "email": "nguyenvandaibe@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nvdai\\Blog\\": "src"
+        }
+    }
+}
